@@ -1,0 +1,10 @@
+/data/
+/.venv*/
+**/__pycache__/
+*.pyc
+/evaluation/candidates/
+/evaluation/gt/
+/evaluation/experiments/idsse_v2_retrained/
+/handoff/
+*.mp4
+*.pkl
