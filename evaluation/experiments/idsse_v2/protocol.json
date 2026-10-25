@@ -1,0 +1,40 @@
+{
+  "development": [
+    "J03WMX",
+    "J03WN1",
+    "J03WOH"
+  ],
+  "reserved_test": [
+    "J03WOY",
+    "J03WPY",
+    "J03WQQ",
+    "J03WR9"
+  ],
+  "scenarios": [
+    "clean",
+    "ball_gaps",
+    "mixed_tracking"
+  ],
+  "recipes": [
+    "clean_only",
+    "robust_aug"
+  ],
+  "decoder_strengths": [
+    0.0,
+    0.35,
+    1.0
+  ],
+  "model_config": {
+    "learning_rate": 0.05,
+    "max_iter": 140,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 60,
+    "l2_regularization": 3.0,
+    "class_weight": "balanced",
+    "early_stopping": false,
+    "random_state": 2027
+  },
+  "selection": "LOMO mean spellF1, equal match/scenario weights; macroF1 tie-break",
+  "signature": "65f5f65e4f0d4d096b80be03987a654d9388985bbe1c022bf7d8ee2cecbba119",
+  "challenge_labels_read": false
+}

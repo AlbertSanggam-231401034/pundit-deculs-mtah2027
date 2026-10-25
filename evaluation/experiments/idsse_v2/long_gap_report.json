@@ -1,0 +1,288 @@
+{
+  "protocol": {
+    "matches": [
+      "J03WOY",
+      "J03WPY",
+      "J03WQQ",
+      "J03WR9"
+    ],
+    "model_sha256": "2021db16d8ae7f94810f22ea5103288f835513b5dafa5ef3f10489be7afe0f93",
+    "cases": {
+      "fixed5s": "seconds 10..15 in each 20s cycle",
+      "fixed15s": "seconds 10..25 in each 40s cycle"
+    },
+    "use": "Additional diagnostics only; no refitting or configuration changes."
+  },
+  "results": [
+    {
+      "match": "J03WOY",
+      "scenario": "fixed5s",
+      "method": "frozen_v1",
+      "macroF1": 0.7958330228311247,
+      "spellF1": 0.3657015590200445,
+      "F1_D": 0.9102935299442954,
+      "precision_D": 0.9901527652099856,
+      "recall_D": 0.8423547169811321,
+      "possessions": 442,
+      "gt_possessions": 456,
+      "false_D": 555,
+      "missed_D": 10444,
+      "hidden_live_team_accuracy": 0.7074905183312263
+    },
+    {
+      "match": "J03WOY",
+      "scenario": "fixed5s",
+      "method": "selected_v2",
+      "macroF1": 0.8780635297145492,
+      "spellF1": 0.5041931385006353,
+      "F1_D": 0.9755152369209089,
+      "precision_D": 0.9901431880723247,
+      "recall_D": 0.9613132075471698,
+      "possessions": 331,
+      "gt_possessions": 456,
+      "false_D": 634,
+      "missed_D": 2563,
+      "hidden_live_team_accuracy": 0.8066266329540666
+    },
+    {
+      "match": "J03WOY",
+      "scenario": "fixed15s",
+      "method": "frozen_v1",
+      "macroF1": 0.7698644264884272,
+      "spellF1": 0.3271317829457364,
+      "F1_D": 0.9084323384526225,
+      "precision_D": 0.9731659366053875,
+      "recall_D": 0.8517735849056604,
+      "possessions": 318,
+      "gt_possessions": 456,
+      "false_D": 1556,
+      "missed_D": 9820,
+      "hidden_live_team_accuracy": 0.6295410427066002
+    },
+    {
+      "match": "J03WOY",
+      "scenario": "fixed15s",
+      "method": "selected_v2",
+      "macroF1": 0.8401551203260912,
+      "spellF1": 0.4463320463320463,
+      "F1_D": 0.9405960041168753,
+      "precision_D": 0.980813029444053,
+      "recall_D": 0.9035471698113208,
+      "possessions": 321,
+      "gt_possessions": 456,
+      "false_D": 1171,
+      "missed_D": 6390,
+      "hidden_live_team_accuracy": 0.7750277315585136
+    },
+    {
+      "match": "J03WPY",
+      "scenario": "fixed5s",
+      "method": "frozen_v1",
+      "macroF1": 0.8212757122810674,
+      "spellF1": 0.37259615384615385,
+      "F1_D": 0.9217042377581314,
+      "precision_D": 0.9765818081263719,
+      "recall_D": 0.8726660592114408,
+      "possessions": 411,
+      "gt_possessions": 421,
+      "false_D": 1355,
+      "missed_D": 8245,
+      "hidden_live_team_accuracy": 0.7501825083953861
+    },
+    {
+      "match": "J03WPY",
+      "scenario": "fixed5s",
+      "method": "selected_v2",
+      "macroF1": 0.8940343187330114,
+      "spellF1": 0.5077809798270894,
+      "F1_D": 0.9790408470602847,
+      "precision_D": 0.9842362379235535,
+      "recall_D": 0.9739000169881546,
+      "possessions": 273,
+      "gt_possessions": 421,
+      "false_D": 1010,
+      "missed_D": 1690,
+      "hidden_live_team_accuracy": 0.8241592446585876
+    },
+    {
+      "match": "J03WPY",
+      "scenario": "fixed15s",
+      "method": "frozen_v1",
+      "macroF1": 0.7936923912877475,
+      "spellF1": 0.3473684210526315,
+      "F1_D": 0.9244759506663885,
+      "precision_D": 0.9614852129238879,
+      "recall_D": 0.8902101898040184,
+      "possessions": 301,
+      "gt_possessions": 421,
+      "false_D": 2309,
+      "missed_D": 7109,
+      "hidden_live_team_accuracy": 0.663327471423188
+    },
+    {
+      "match": "J03WPY",
+      "scenario": "fixed15s",
+      "method": "selected_v2",
+      "macroF1": 0.859475849554649,
+      "spellF1": 0.451970802919708,
+      "F1_D": 0.9538228022407912,
+      "precision_D": 0.9666037646088708,
+      "recall_D": 0.9413754227733935,
+      "possessions": 264,
+      "gt_possessions": 421,
+      "false_D": 2106,
+      "missed_D": 3796,
+      "hidden_live_team_accuracy": 0.7650420801406859
+    },
+    {
+      "match": "J03WQQ",
+      "scenario": "fixed5s",
+      "method": "frozen_v1",
+      "macroF1": 0.8275168064913011,
+      "spellF1": 0.3971153846153846,
+      "F1_D": 0.920787500113355,
+      "precision_D": 0.9710979342004591,
+      "recall_D": 0.8754332419429931,
+      "possessions": 431,
+      "gt_possessions": 401,
+      "false_D": 1511,
+      "missed_D": 7224,
+      "hidden_live_team_accuracy": 0.7241474021515221
+    },
+    {
+      "match": "J03WQQ",
+      "scenario": "fixed5s",
+      "method": "selected_v2",
+      "macroF1": 0.8989190508059686,
+      "spellF1": 0.5309192200557104,
+      "F1_D": 0.9719323746733808,
+      "precision_D": 0.9753755318225232,
+      "recall_D": 0.9685134412773956,
+      "possessions": 317,
+      "gt_possessions": 401,
+      "false_D": 1418,
+      "missed_D": 1826,
+      "hidden_live_team_accuracy": 0.8233463035019455
+    },
+    {
+      "match": "J03WQQ",
+      "scenario": "fixed15s",
+      "method": "frozen_v1",
+      "macroF1": 0.8144676640339436,
+      "spellF1": 0.3888423988842399,
+      "F1_D": 0.9269329333083318,
+      "precision_D": 0.9612037037037037,
+      "recall_D": 0.8950218129774283,
+      "possessions": 316,
+      "gt_possessions": 401,
+      "false_D": 2095,
+      "missed_D": 6088,
+      "hidden_live_team_accuracy": 0.6793065023597273
+    },
+    {
+      "match": "J03WQQ",
+      "scenario": "fixed15s",
+      "method": "selected_v2",
+      "macroF1": 0.8716590179188745,
+      "spellF1": 0.5077574047954865,
+      "F1_D": 0.9495010050428466,
+      "precision_D": 0.9714079552629206,
+      "recall_D": 0.9285603434897315,
+      "possessions": 308,
+      "gt_possessions": 401,
+      "false_D": 1585,
+      "missed_D": 4143,
+      "hidden_live_team_accuracy": 0.8053880440482433
+    },
+    {
+      "match": "J03WR9",
+      "scenario": "fixed5s",
+      "method": "frozen_v1",
+      "macroF1": 0.833128498057067,
+      "spellF1": 0.3486772486772487,
+      "F1_D": 0.918198284816592,
+      "precision_D": 0.972452041094645,
+      "recall_D": 0.8696783426025303,
+      "possessions": 386,
+      "gt_possessions": 370,
+      "false_D": 1515,
+      "missed_D": 8014,
+      "hidden_live_team_accuracy": 0.7771207858471222
+    },
+    {
+      "match": "J03WR9",
+      "scenario": "fixed5s",
+      "method": "selected_v2",
+      "macroF1": 0.9006010492528135,
+      "spellF1": 0.5037974683544304,
+      "F1_D": 0.9779609800959076,
+      "precision_D": 0.9877259910432907,
+      "recall_D": 0.9683871597228998,
+      "possessions": 262,
+      "gt_possessions": 370,
+      "false_D": 740,
+      "missed_D": 1944,
+      "hidden_live_team_accuracy": 0.8456439845500929
+    },
+    {
+      "match": "J03WR9",
+      "scenario": "fixed15s",
+      "method": "frozen_v1",
+      "macroF1": 0.8113283400860852,
+      "spellF1": 0.3447204968944099,
+      "F1_D": 0.9158931934355664,
+      "precision_D": 0.9481288076588338,
+      "recall_D": 0.8857774742251276,
+      "possessions": 274,
+      "gt_possessions": 370,
+      "false_D": 2980,
+      "missed_D": 7024,
+      "hidden_live_team_accuracy": 0.6874113754529699
+    },
+    {
+      "match": "J03WR9",
+      "scenario": "fixed15s",
+      "method": "selected_v2",
+      "macroF1": 0.8708138076697903,
+      "spellF1": 0.46203554119547663,
+      "F1_D": 0.9477389701282126,
+      "precision_D": 0.9729725100625161,
+      "recall_D": 0.9237811819039256,
+      "possessions": 249,
+      "gt_possessions": 370,
+      "false_D": 1578,
+      "missed_D": 4687,
+      "hidden_live_team_accuracy": 0.8245785410430124
+    }
+  ],
+  "mean_by_scenario": {
+    "fixed5s": {
+      "frozen_v1": {
+        "spellF1": 0.3710225865397079,
+        "macroF1": 0.81943850991514,
+        "F1_D": 0.9177458881580934,
+        "hidden_live_team_accuracy": 0.7397353036813141
+      },
+      "selected_v2": {
+        "spellF1": 0.5116727016844663,
+        "macroF1": 0.8929044871265857,
+        "F1_D": 0.9761123596876206,
+        "hidden_live_team_accuracy": 0.8249440414161731
+      }
+    },
+    "fixed15s": {
+      "frozen_v1": {
+        "spellF1": 0.35201577494425446,
+        "macroF1": 0.7973382054740509,
+        "F1_D": 0.9189336039657273,
+        "hidden_live_team_accuracy": 0.6648965979856214
+      },
+      "selected_v2": {
+        "spellF1": 0.4670239488106793,
+        "macroF1": 0.8605259488673512,
+        "F1_D": 0.9479146953821814,
+        "hidden_live_team_accuracy": 0.7925090991976137
+      }
+    }
+  }
+}

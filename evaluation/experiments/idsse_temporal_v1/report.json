@@ -1,0 +1,131 @@
+{
+  "train_match": "DFL-MAT-J03WMX",
+  "validation_match": "DFL-MAT-J03WN1",
+  "input_hashes": {
+    "train": {
+      "features.npz": "cda22fa336559f11b41b99f84211f4fabb515c91c878492b3ea9ff5098e3e8a4",
+      "targets.npz": "c8769073316f40bcc5b6646a6e99427a50473664aa71a3e0b3126b09a0c15cff"
+    },
+    "valid": {
+      "features.npz": "ff12799a0ade2b3eb2e0cc5b70c546d9b06f4ded48ee2e929c0b433665ddca74",
+      "targets.npz": "099f9446375c4fe9ca528574bcf67ff3400af9bb227fbc25b431aa34e6635c82"
+    }
+  },
+  "model_sha256": "be73d7fe8f8f47b0b34874213be3392fdfd179195ace7b1a8cb973563e3441b7",
+  "script_sha256": "2af0f498ecfe4886164849d9d74425805a4f5136e61285023498592e251f403e",
+  "training_script_sha256": "8ba78f25b4c042c761ec24f2b9f09a0ee3bde7742e012b438aa2395104d7afab",
+  "step_frames": 5,
+  "team_radius": 50,
+  "transition_counts_with_pseudocount": [
+    [
+      16567.0,
+      402.0,
+      104.0
+    ],
+    [
+      402.0,
+      16567.0,
+      104.0
+    ],
+    [
+      102.0,
+      102.0,
+      24043.0
+    ]
+  ],
+  "transition": [
+    [
+      0.9703625607684648,
+      0.023545949745211736,
+      0.006091489486323435
+    ],
+    [
+      0.023545949745211736,
+      0.9703625607684648,
+      0.006091489486323435
+    ],
+    [
+      0.004206705984245474,
+      0.004206705984245474,
+      0.991586588031509
+    ]
+  ],
+  "initial": [
+    0.42857142857142855,
+    0.42857142857142855,
+    0.14285714285714285
+  ],
+  "results": [
+    {
+      "scenario": "bola_tersedia",
+      "method": "external_full_awal",
+      "macroF1": 0.8541615319047197,
+      "spellF1": 0.4234291799787008,
+      "F1_D": 0.9845864869344236,
+      "precision_D": 0.9953088350273651,
+      "recall_D": 0.9740926978574552,
+      "possessions": 439,
+      "gt_possessions": 500,
+      "false_D": 336,
+      "missed_D": 1896
+    },
+    {
+      "scenario": "bola_tersedia",
+      "method": "external_markov",
+      "macroF1": 0.8517824794499531,
+      "spellF1": 0.4,
+      "F1_D": 0.98459004822962,
+      "precision_D": 0.9973644736657648,
+      "recall_D": 0.9721387188456493,
+      "possessions": 269,
+      "gt_possessions": 500,
+      "false_D": 188,
+      "missed_D": 2039
+    },
+    {
+      "scenario": "bola_disembunyikan_5s",
+      "method": "external_full_awal",
+      "macroF1": 0.7853927436485156,
+      "spellF1": 0.2806666666666667,
+      "F1_D": 0.9253324674591298,
+      "precision_D": 0.9570848665381695,
+      "recall_D": 0.8956192610406646,
+      "possessions": 700,
+      "gt_possessions": 500,
+      "false_D": 2939,
+      "missed_D": 7639,
+      "hidden_frames_only": {
+        "frames": 35311,
+        "F1_D": 0.8578487368169381,
+        "recall_LIVE": 0.8332730124261069,
+        "LIVE_frames": 16578,
+        "D_frames": 18733
+      }
+    },
+    {
+      "scenario": "bola_disembunyikan_5s",
+      "method": "external_markov",
+      "macroF1": 0.7876957661589725,
+      "spellF1": 0.31168274383708466,
+      "F1_D": 0.924523306979573,
+      "precision_D": 0.97036692149412,
+      "recall_D": 0.8828159160472234,
+      "possessions": 433,
+      "gt_possessions": 500,
+      "false_D": 1973,
+      "missed_D": 8576,
+      "hidden_frames_only": {
+        "frames": 35311,
+        "F1_D": 0.8530196863530197,
+        "recall_LIVE": 0.8858728435275667,
+        "LIVE_frames": 16578,
+        "D_frames": 18733
+      }
+    }
+  ],
+  "method": "Three-state Viterbi decoder. Transition and initial probabilities from external training labels plus home/away mirroring and Laplace pseudocounts. Relative emissions from frozen binary LIVE/D heads and nearest-team vote evidence. Mean log likelihood per 200 ms block. No grid search or calibrated posterior claim.",
+  "challenge_data_read": false,
+  "challenge_gt_read": false,
+  "source": "DFL / Bassek et al. (2025), doi:10.6084/m9.figshare.28196177.v1, CC BY 4.0",
+  "limitations": "Development validation on J03WN1 has influenced the choice to test a temporal method. Not an untouched final test. Synthetic ball hiding is not actual occlusion; clean tracking has persistent player identities unlike challenge ATD."
+}

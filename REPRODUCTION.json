@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-25T03:13:28.794305+00:00",
+  "csv_sha256": "7967963a92f429a0b4c53433e6a418dcd9a34802cfb0958a29acfface96f61af",
+  "model_sha256": "2021db16d8ae7f94810f22ea5103288f835513b5dafa5ef3f10489be7afe0f93",
+  "copied_code_reproduction": "byte_identical",
+  "original_project_read_access": "blocked",
+  "official_validator_passed": true,
+  "environment": "Same local interpreter/packages; copied code/model; new process/output.",
+  "private_challenge_assets_copied": false,
+  "challenge_gt_copied": false,
+  "published": false,
+  "submitted": false
+}

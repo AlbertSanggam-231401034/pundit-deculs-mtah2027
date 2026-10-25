@@ -1,0 +1,43 @@
+{
+  "python": "3.12.2",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.7.0"
+  },
+  "training_data_inventory": [
+    {
+      "match": "J03WMX",
+      "frames_25hz": 145967,
+      "samples_5hz": 29194,
+      "target_counts": {
+        "A": 46258,
+        "D": 60598,
+        "H": 39111
+      }
+    },
+    {
+      "match": "J03WN1",
+      "frames_25hz": 141561,
+      "samples_5hz": 28313,
+      "target_counts": {
+        "H": 36421,
+        "D": 73184,
+        "A": 31956
+      }
+    },
+    {
+      "match": "J03WOH",
+      "frames_25hz": 137214,
+      "samples_5hz": 27443,
+      "target_counts": {
+        "A": 32819,
+        "H": 39126,
+        "D": 65269
+      }
+    }
+  ]
+}

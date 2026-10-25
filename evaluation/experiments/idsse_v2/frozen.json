@@ -1,0 +1,69 @@
+{
+  "development_matches": [
+    "J03WMX",
+    "J03WN1",
+    "J03WOH"
+  ],
+  "reserved_matches": [
+    "J03WOY",
+    "J03WPY",
+    "J03WQQ",
+    "J03WR9"
+  ],
+  "selected": {
+    "recipe": "robust_aug",
+    "strength": 0.35,
+    "mean_spellF1": 0.46425567580909366,
+    "mean_macroF1": 0.880275537142078
+  },
+  "selection_table": [
+    {
+      "recipe": "robust_aug",
+      "strength": 0.35,
+      "mean_spellF1": 0.46425567580909366,
+      "mean_macroF1": 0.880275537142078
+    },
+    {
+      "recipe": "robust_aug",
+      "strength": 1.0,
+      "mean_spellF1": 0.45454741856916314,
+      "mean_macroF1": 0.881611169963857
+    },
+    {
+      "recipe": "clean_only",
+      "strength": 1.0,
+      "mean_spellF1": 0.39549852786309503,
+      "mean_macroF1": 0.7953481439045471
+    },
+    {
+      "recipe": "clean_only",
+      "strength": 0.35,
+      "mean_spellF1": 0.37481381096105376,
+      "mean_macroF1": 0.7867122253185268
+    },
+    {
+      "recipe": "robust_aug",
+      "strength": 0.0,
+      "mean_spellF1": 0.28426114436423633,
+      "mean_macroF1": 0.8714595878591113
+    },
+    {
+      "recipe": "clean_only",
+      "strength": 0.0,
+      "mean_spellF1": 0.2368694304676286,
+      "mean_macroF1": 0.7753057895815443
+    }
+  ],
+  "signature": "65f5f65e4f0d4d096b80be03987a654d9388985bbe1c022bf7d8ee2cecbba119",
+  "source_sha256": "44105328d68c4be3336a80036989a13f374f62d950a822d6aaf470768551e13c",
+  "model_sha256": "2021db16d8ae7f94810f22ea5103288f835513b5dafa5ef3f10489be7afe0f93",
+  "challenge_gt_read": false,
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.7.0"
+  },
+  "external_source": "DFL / Bassek et al. 2025; doi:10.6084/m9.figshare.28196177.v1; CC BY 4.0"
+}

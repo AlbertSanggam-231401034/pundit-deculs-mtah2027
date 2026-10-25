@@ -1,0 +1,271 @@
+{
+  "candidate_sha256": "7967963a92f429a0b4c53433e6a418dcd9a34802cfb0958a29acfface96f61af",
+  "model_sha256": "2021db16d8ae7f94810f22ea5103288f835513b5dafa5ef3f10489be7afe0f93",
+  "source_sha256": "44105328d68c4be3336a80036989a13f374f62d950a822d6aaf470768551e13c",
+  "v2": {
+    "rows": 199319,
+    "label_counts": {
+      "X": 40462,
+      "A": 40130,
+      "H": 59930,
+      "D": 58797
+    },
+    "profiles": [
+      {
+        "half": 1,
+        "frames": 79467,
+        "label_counts": {
+          "A": 18585,
+          "H": 31385,
+          "D": 29497
+        },
+        "label_pct": {
+          "H": 39.494,
+          "A": 23.387,
+          "D": 37.119,
+          "X": 0.0
+        },
+        "home_share_predicted_live_pct": 62.808
+      },
+      {
+        "half": 2,
+        "frames": 79390,
+        "label_counts": {
+          "H": 28545,
+          "A": 21545,
+          "D": 29300
+        },
+        "label_pct": {
+          "H": 35.955,
+          "A": 27.138,
+          "D": 36.906,
+          "X": 0.0
+        },
+        "home_share_predicted_live_pct": 56.987
+      }
+    ],
+    "inside_match_X": 0,
+    "outside_match_non_X": 0,
+    "possession_spells": 434,
+    "mean_possession_s": 9.222119815668202,
+    "segments": [
+      {
+        "half": 1,
+        "label": "H",
+        "segments": 100,
+        "median_s": 7.0,
+        "p90_s": 34.20000000000002,
+        "max_s": 50.8,
+        "under_0_5s": 0,
+        "under_1s": 3,
+        "under_2s": 12
+      },
+      {
+        "half": 1,
+        "label": "A",
+        "segments": 107,
+        "median_s": 3.6,
+        "p90_s": 16.76000000000001,
+        "max_s": 44.6,
+        "under_0_5s": 0,
+        "under_1s": 6,
+        "under_2s": 22
+      },
+      {
+        "half": 1,
+        "label": "D",
+        "segments": 83,
+        "median_s": 6.4,
+        "p90_s": 32.83999999999998,
+        "max_s": 142.4,
+        "under_0_5s": 2,
+        "under_1s": 3,
+        "under_2s": 11
+      },
+      {
+        "half": 1,
+        "label": "X",
+        "segments": 0,
+        "median_s": null,
+        "p90_s": null,
+        "max_s": null,
+        "under_0_5s": 0,
+        "under_1s": 0,
+        "under_2s": 0
+      },
+      {
+        "half": 2,
+        "label": "H",
+        "segments": 115,
+        "median_s": 6.6,
+        "p90_s": 26.12000000000002,
+        "max_s": 84.8,
+        "under_0_5s": 0,
+        "under_1s": 6,
+        "under_2s": 27
+      },
+      {
+        "half": 2,
+        "label": "A",
+        "segments": 112,
+        "median_s": 4.8,
+        "p90_s": 16.500000000000007,
+        "max_s": 42.0,
+        "under_0_5s": 0,
+        "under_1s": 0,
+        "under_2s": 10
+      },
+      {
+        "half": 2,
+        "label": "D",
+        "segments": 101,
+        "median_s": 6.0,
+        "p90_s": 23.4,
+        "max_s": 208.8,
+        "under_0_5s": 3,
+        "under_1s": 6,
+        "under_2s": 15
+      },
+      {
+        "half": 2,
+        "label": "X",
+        "segments": 0,
+        "median_s": null,
+        "p90_s": null,
+        "max_s": null,
+        "under_0_5s": 0,
+        "under_1s": 0,
+        "under_2s": 0
+      }
+    ],
+    "transitions": {
+      "A->D": 94,
+      "A->H": 125,
+      "D->A": 93,
+      "D->H": 89,
+      "H->A": 125,
+      "H->D": 90
+    },
+    "short_interruptions": [
+      {
+        "half": 1,
+        "middle_label": "H",
+        "under_s": 1,
+        "surrounded_by_same_team": 0,
+        "total_s": 0
+      },
+      {
+        "half": 1,
+        "middle_label": "H",
+        "under_s": 2,
+        "surrounded_by_same_team": 4,
+        "total_s": 5.6
+      },
+      {
+        "half": 1,
+        "middle_label": "A",
+        "under_s": 1,
+        "surrounded_by_same_team": 1,
+        "total_s": 0.8
+      },
+      {
+        "half": 1,
+        "middle_label": "A",
+        "under_s": 2,
+        "surrounded_by_same_team": 5,
+        "total_s": 5.6
+      },
+      {
+        "half": 1,
+        "middle_label": "D",
+        "under_s": 1,
+        "surrounded_by_same_team": 1,
+        "total_s": 0.2
+      },
+      {
+        "half": 1,
+        "middle_label": "D",
+        "under_s": 2,
+        "surrounded_by_same_team": 7,
+        "total_s": 8.4
+      },
+      {
+        "half": 1,
+        "middle_label": "X",
+        "under_s": 1,
+        "surrounded_by_same_team": 0,
+        "total_s": 0
+      },
+      {
+        "half": 1,
+        "middle_label": "X",
+        "under_s": 2,
+        "surrounded_by_same_team": 0,
+        "total_s": 0
+      },
+      {
+        "half": 2,
+        "middle_label": "H",
+        "under_s": 1,
+        "surrounded_by_same_team": 1,
+        "total_s": 0.8
+      },
+      {
+        "half": 2,
+        "middle_label": "H",
+        "under_s": 2,
+        "surrounded_by_same_team": 9,
+        "total_s": 13.200000000000001
+      },
+      {
+        "half": 2,
+        "middle_label": "A",
+        "under_s": 1,
+        "surrounded_by_same_team": 0,
+        "total_s": 0
+      },
+      {
+        "half": 2,
+        "middle_label": "A",
+        "under_s": 2,
+        "surrounded_by_same_team": 2,
+        "total_s": 2.4
+      },
+      {
+        "half": 2,
+        "middle_label": "D",
+        "under_s": 1,
+        "surrounded_by_same_team": 5,
+        "total_s": 2.2
+      },
+      {
+        "half": 2,
+        "middle_label": "D",
+        "under_s": 2,
+        "surrounded_by_same_team": 13,
+        "total_s": 13.2
+      },
+      {
+        "half": 2,
+        "middle_label": "X",
+        "under_s": 1,
+        "surrounded_by_same_team": 0,
+        "total_s": 0
+      },
+      {
+        "half": 2,
+        "middle_label": "X",
+        "under_s": 2,
+        "surrounded_by_same_team": 0,
+        "total_s": 0
+      }
+    ],
+    "interpretation": "Describes predictions only. Neither spell counts nor short interruptions prove an error. No ground truth used."
+  },
+  "selected": {
+    "recipe": "robust_aug",
+    "strength": 0.35,
+    "mean_spellF1": 0.46425567580909366,
+    "mean_macroF1": 0.880275537142078
+  }
+}

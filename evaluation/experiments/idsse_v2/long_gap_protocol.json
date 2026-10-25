@@ -1,0 +1,14 @@
+{
+  "matches": [
+    "J03WOY",
+    "J03WPY",
+    "J03WQQ",
+    "J03WR9"
+  ],
+  "model_sha256": "2021db16d8ae7f94810f22ea5103288f835513b5dafa5ef3f10489be7afe0f93",
+  "cases": {
+    "fixed5s": "seconds 10..15 in each 20s cycle",
+    "fixed15s": "seconds 10..25 in each 40s cycle"
+  },
+  "use": "Additional diagnostics only; no refitting or configuration changes."
+}
