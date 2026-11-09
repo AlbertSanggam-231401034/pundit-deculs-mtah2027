@@ -144,9 +144,9 @@ weak-labelled samples across the comparisons. These were agreement audits,
 not challenge scores. No SkillCorner targets, features or fitted assets
 are used by v2.
 
-The supplied game was watched for understanding/debugging. Observations
-were not converted into hand labels, frame-specific corrections or
-frame-specific decision rules in v2.
+During earlier development, we manually compared some predictions against short sections of the supplied match video and wrote informal descriptions of the observed play. We also shared several screenshots of ball-position checks from those video sections with ChatGPT. No hand labels or frame-specific corrections from those checks were used in v2, and the final CSV was generated automatically without manual edits.
+
+We disclosed these activities, along with the use of public challenge ground truth in the withdrawn prototypes, to the organisers. They restated the rules without issuing a case-specific eligibility decision.
 
 ### Reproduction
 
